@@ -1,0 +1,32 @@
+@mixin --my-mixin($color)  {
+  background: $color;
+  @if $color - 1  { }
+  @else if $color + 1  { }
+  @else  { }
+
+  @for $i from 0 to 10  {
+  }
+}
+
+$body_bg: #f0f;
+
+:root  {
+  --body_bg: #{$body_bg};
+}
+
+body, #id, .class-name,
+[attr], *::after, *::before
+ {
+  content: "";
+  background-color: var(--body_bg) !important;
+}
+
+@media only screen and (min-width: 200px) {
+  :root {
+    --space: 8px;
+  }
+
+  body {
+    padding: var(--space);
+  }
+}
