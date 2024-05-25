@@ -1,0 +1,11 @@
+! 2023-02-09 https://tweetdeck.twitter.com
+tweetdeck.twitter.com##div[aria-label*="Supprimer la colonne"]
+
+! 2023-03-01 https://docs.w3cub.com
+docs.w3cub.com##ins.adsbygoogle
+
+www.lesoir.be
+google.com##a[href*="lesoir.be"]
+www.lalibre.be
+google.com##a[href*="lalibre.be"]
+
