@@ -1,0 +1,36 @@
+{
+  "name": "vscode-theme-phisyx",
+  "displayName": "PhiSyX Theme",
+  "description": "Différents thèmes VSCode",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PhiSyX Theme (Black light)",
+        "uiTheme": "vs",
+        "path": "./themes/black-light-theme.json"
+      },
+      {
+        "label": "PhiSyX Theme (Red light)",
+        "uiTheme": "vs",
+        "path": "./themes/red-light-theme.json"
+      },
+      {
+        "label": "PhiSyX Theme (Ultra light)",
+        "uiTheme": "vs",
+        "path": "./themes/ultra-light-theme.json"
+      },
+      {
+        "label": "PhiSyX Theme (Ultra black)",
+        "uiTheme": "hc-black",
+        "path": "./themes/ultra-black-theme.json"
+      }
+    ]
+  }
+}
