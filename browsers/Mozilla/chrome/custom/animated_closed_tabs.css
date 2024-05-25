@@ -1,0 +1,27 @@
+@-moz-document url("chrome://browser/content/browser.xhtml")
+{
+  .tabbrowser-tab:not([pinned], [fadein]) {
+    visibility: visible !important;
+
+    transition-duration: 120ms, 120ms !important;
+    transition-timing-function: ease-out, ease-out !important;
+  }
+
+  .tab-content:not([fadein], [pinned]) .tab-icon-pending:not([fadein]),
+  .tab-icon-image:not([fadein]),
+  .tab-label:not([fadein]) {
+    visibility: visible !important;
+  }
+
+  .tab-label:not([fadein]) {
+    display: flex !important;
+  }
+
+  .tab-stack {
+    transition: transform 60ms linear;
+  }
+
+  .tabbrowser-tab:active .tab-stack {
+    transform: scale(0.9);
+  }
+}

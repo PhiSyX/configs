@@ -1,0 +1,72 @@
+@-moz-document url("chrome://browser/content/browser.xhtml")
+{
+  #main-window body {
+    flex-direction: column-reverse !important;
+  }
+
+  #navigator-toolbox {
+    flex-direction: column-reverse !important;
+  }
+
+  #urlbar {
+    top: unset !important;
+    bottom: calc(var(--urlbar-margin-inline)) !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  #urlbar-input-container {
+    order: 2;
+  }
+
+  #urlbar:not([usertyping]) #urlbar-input-container {
+    padding-block: 8px !important;
+  }
+
+  #urlbar-input-container #urlbar-input {
+    margin-top: -2px !important;
+  }
+
+  .urlbarView {
+    order: 1;
+    border-bottom: 1px solid var(--arrowpanel-border-color);
+  }
+
+  .urlbarView .search-one-offs {
+    display: none !important;
+    pointer-events: none;
+  }
+
+  #PersonalToolbar {
+    padding-top: 8px !important;
+    padding-bottom: 4px !important;
+    border-top: 1px solid var(--arrowpanel-border-color) !important;
+  }
+
+  #navigator-toolbox::after {
+    border: none;
+  }
+
+  /* background start */
+
+  @media (prefers-color-scheme: dark) {
+    #urlbar-input-container {
+      background: #1d2125 !important;
+    }
+
+    #TabsToolbar,
+    #nav-bar,
+    #PersonalToolbar {
+      background: #242b33 !important;
+    }
+
+    #sidebar-box {
+      background: #1d2125 !important;
+    }
+
+    .tab-background {
+      background: #111111 !important;
+    }
+  }
+}

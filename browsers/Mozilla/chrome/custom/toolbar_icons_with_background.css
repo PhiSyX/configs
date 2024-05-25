@@ -1,0 +1,41 @@
+@-moz-document url("chrome://browser/content/browser.xhtml")
+{
+  toolbar
+    :not([disabled], .toolbarbutton-badge-stack, .titlebar-button)
+    > .toolbarbutton-icon,
+  :not(.webextension-browser-action) > .toolbarbutton-badge-stack {
+    background: var(--button-hover-bgcolor) !important;
+    border-radius: 11px !important;
+  }
+
+  toolbar
+    :not([disabled], .toolbarbutton-badge-stack, .titlebar-button):hover
+    > .toolbarbutton-icon,
+  toolbar
+    :not([disabled], .toolbarbutton-badge-stack, .titlebar-button):focus
+    > .toolbarbutton-icon,
+  toolbar :not(.webextension-browser-action):hover > .toolbarbutton-badge-stack,
+  toolbar
+    :not(.webextension-browser-action):focus
+    > .toolbarbutton-badge-stack {
+    background: var(--button-active-bgcolor) !important;
+  }
+
+  toolbar
+    :not([disabled], .toolbarbutton-badge-stack, .titlebar-button):active
+    > .toolbarbutton-icon,
+  toolbar
+    :not(.webextension-browser-action):active
+    > .toolbarbutton-badge-stack {
+    background: var(--button-bgcolor) !important;
+  }
+
+  /* Réinitialise le bouton de rechargement */
+  #stop-reload-button .toolbarbutton-icon {
+    border-radius: 4px !important;
+  }
+
+  #stop-reload-button *:not(:hover, :focus, :active) .toolbarbutton-icon {
+    background: unset !important;
+  }
+}

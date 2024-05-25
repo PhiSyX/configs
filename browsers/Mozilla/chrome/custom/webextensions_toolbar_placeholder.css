@@ -1,0 +1,24 @@
+@-moz-document url("chrome://browser/content/browser.xhtml")
+{
+  toolbar .webextension-browser-action:not([open]) {
+    background-image: radial-gradient(
+      circle at center,
+      var(--toolbarbutton-icon-fill, currentColor) 0,
+      var(--toolbarbutton-icon-fill, currentColor) 16%,
+      transparent 24%
+    );
+  }
+
+  toolbar .webextension-browser-action:hover {
+    background-image: none;
+  }
+
+  toolbar .webextension-browser-action > * {
+    transform: scale(0);
+    transition: transform 60ms linear !important;
+  }
+
+  toolbar .webextension-browser-action:hover > * {
+    transform: scale(1);
+  }
+}

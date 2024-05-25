@@ -1,0 +1,53 @@
+@-moz-document url("chrome://browser/content/browser.xhtml")
+{
+  :root[privatebrowsingmode] .urlbar-input-box::before {
+    content: "";
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100vw;
+    height: 32px;
+  }
+
+  :root[privatebrowsingmode] .tabbrowser-tab,
+  :root[privatebrowsingmode] #TabsToolbar toolbarbutton {
+    z-index: 2;
+
+    position: relative;
+  }
+
+  :root[privatebrowsingmode]
+    #navigator-toolbox:not(:focus-within)
+    .tabbrowser-tab[visuallyselected] {
+    z-index: 0 !important;
+  }
+
+  :root[privatebrowsingmode]:not([customizing]) #urlbar {
+    opacity: 0;
+
+    transition: opacity 200ms ease-in-out;
+  }
+
+  :root[privatebrowsingmode]:not([customizing]) #urlbar:focus-within {
+    opacity: 1;
+  }
+
+  :root[privatebrowsingmode] #toolbar-menubar {
+    z-index: 3;
+
+    position: relative;
+  }
+
+  /* FIXME: L'idéale serait d'affiner sur uniquement certaines parties. Comme
+   *        l'historique, les URL's, titre de la page, ...
+   *
+   * NOTE: trouver un moyen d'enlever cette sécurité en appuyant la touche alt.
+   */
+  :root[privatebrowsingmode] {
+    -webkit-text-security: square;
+  }
+}

@@ -1,0 +1,88 @@
+@-moz-document url("chrome://browser/content/browser.xhtml")
+{
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --insecure-conn-color: hsla(0, 95%, 59%, 0.3);
+      --extension-page-color: hsla(270, 95%, 59%, 0.2);
+      --about-page-color: hsla(237, 95%, 59%, 0.2);
+    }
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --insecure-conn-color: hsla(0, 61%, 89%, 0.5);
+      --extension-page-color: hsla(290, 62%, 93%, 0.5);
+      --about-page-color: hsla(196, 65%, 90%, 0.5);
+    }
+  }
+
+  #urlbar-container + #stop-reload-button {
+    --toolbarbutton-hover-background: var(--urlbar-box-hover-bgcolor);
+
+    position: relative;
+    z-index: 3;
+
+    margin-top: -2px;
+    margin-left: calc(
+      1px - var(--urlbar-margin-inline) - 2 *
+        (
+          var(--toolbarbutton-outer-padding) +
+            var(--toolbarbutton-inner-padding)
+        ) - 16px
+    );
+
+    color: var(--urlbar-box-hover-text-color) !important;
+  }
+
+  #urlbar-container + #stop-reload-button .toolbarbutton-icon {
+    height: unset !important;
+    padding-block: var(--urlbar-icon-padding) !important;
+  }
+
+  #urlbar {
+    padding-right: calc(
+      2 *
+        (
+          var(--toolbarbutton-outer-padding) +
+            var(--toolbarbutton-inner-padding)
+        ) + 11px
+    );
+  }
+
+  #urlbar:not([focused]) #urlbar-input,
+  #urlbar:not([focused]) .urlbar-input {
+    text-align: center !important;
+  }
+
+  #identity-box::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    display: block;
+    width: 100%;
+    height: var(--urlbar-height);
+
+    pointer-events: none;
+  }
+
+  :root[customizing] #identity-box::before,
+  #urlbar[focused] #identity-box::before {
+    display: none;
+  }
+
+  #identity-box.certErrorPage::before,
+  #identity-box.notSecure::before {
+    background-color: var(--insecure-conn-color);
+  }
+
+  #identity-box.extensionPage::before {
+    background-color: var(--extension-page-color);
+  }
+
+  #identity-box.chromeUI::before {
+    background-color: var(--about-page-color);
+  }
+}

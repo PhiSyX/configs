@@ -1,0 +1,70 @@
+@-moz-document url("chrome://browser/content/browser.xhtml")
+{
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --red-hsl: hsl(1, 77%, 55%);
+      --yellow-hsl: hsl(53, 95%, 56%);
+      --green-hsl: hsl(98, 51%, 52%);
+      --cyan-hsl: hsl(172, 59%, 56%);
+      --blue-hsl: hsl(202, 84%, 61%);
+      --purple-hsl: hsl(278, 38%, 61%);
+      --pink-hsl: hsl(300, 68%, 64%);
+      --red-darken-hsl: hsl(337, 57%, 51%);
+    }
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --red-hsl: hsl(1, 77%, 55%);
+      --yellow-hsl: hsl(53, 95%, 56%);
+      --green-hsl: hsl(98, 51%, 52%);
+      --cyan-hsl: hsl(172, 59%, 56%);
+      --blue-hsl: hsl(202, 84%, 61%);
+      --purple-hsl: hsl(278, 38%, 61%);
+      --pink-hsl: hsl(300, 68%, 64%);
+      --red-darken-hsl: hsl(337, 57%, 51%);
+    }
+  }
+
+  @keyframes gradient {
+    from {
+      filter: hue-rotate(0deg);
+    }
+
+    to {
+      filter: hue-rotate(360deg);
+    }
+  }
+
+  .tabbrowser-tab[selected] > .tab-stack::before {
+    content: "";
+
+    display: inherit;
+
+    z-index: 0;
+
+    grid-area: 1/1;
+    margin-block: var(--tab-block-margin);
+
+    animation: gradient steps(24) 2s infinite;
+
+    border-radius: var(--tab-border-radius);
+    background-image: conic-gradient(
+      var(--red-hsl),
+      var(--yellow-hsl) 50deg,
+      var(--green-hsl) 100deg,
+      var(--cyan-hsl) 150deg,
+      var(--blue-hsl) 200deg,
+      var(--purple-hsl) 250deg,
+      var(--pink-hsl) 300deg,
+      var(--red-darken-hsl) 350deg
+    );
+    background-size: cover;
+    background-position: center;
+  }
+
+  .tab-background[selected] {
+    border: 1px solid transparent !important;
+    outline: none !important;
+    background-clip: padding-box !important;
+  }
+}

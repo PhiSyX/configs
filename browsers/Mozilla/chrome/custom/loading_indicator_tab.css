@@ -1,0 +1,69 @@
+@-moz-document url("chrome://browser/content/browser.xhtml")
+{
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --green-hsl: hsl(98, 51%, 52%);
+      --blue-hsl: hsl(202, 84%, 61%);
+    }
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --green-hsl: hsl(98, 51%, 52%);
+      --blue-hsl: hsl(202, 84%, 61%);
+    }
+  }
+
+  @keyframes tab-loading {
+    from {
+      background-size: 0%;
+    }
+
+    to {
+      background-size: 20%;
+    }
+  }
+
+  .tab-background::after {
+    background-size: 90%;
+  }
+
+  .tabbrowser-tab:is([busy], [bursting]) > .tab-stack > .tab-background::after {
+    content: "";
+
+    display: flex;
+
+    height: 2px;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(var(--blue-hsl), var(--green-hsl));
+
+    transition: background-size 60ms ease-out;
+  }
+
+  .tabbrowser-tab[busy]:not([progress], [bursting])
+    > .tab-stack
+    > .tab-background::after {
+    opacity: 0.5;
+    animation: tab-loading 60ms ease;
+    background-size: 20%;
+  }
+
+  .tabbrowser-tab[busy][progress] > .tab-stack > .tab-background::after {
+    transition-duration: 2s;
+  }
+
+  .tabbrowser-tab[bursting] > .tab-stack > .tab-background::after {
+    opacity: 0;
+    transition: background-size 60ms ease-out, opacity 60ms linear;
+    background-size: 100%;
+  }
+
+  .tab-throbber {
+    display: none !important;
+  }
+
+  .tab-icon-image[src] {
+    display: block !important;
+  }
+}
