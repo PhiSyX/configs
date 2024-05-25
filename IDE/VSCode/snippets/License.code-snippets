@@ -1,0 +1,31 @@
+{
+	"License MPL2": {
+		"prefix": "lic_mpl",
+		"body": [
+			"// ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓",
+			"// ┃ Copyright: (c) ${CURRENT_YEAR}, Mike 'PhiSyX' S. (https://github.com/PhiSyX)         ┃",
+			"// ┃ SPDX-License-Identifier: MPL-2.0                                          ┃",
+			"// ┃ ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌ ┃",
+			"// ┃                                                                           ┃",
+			"// ┃  This Source Code Form is subject to the terms of the Mozilla Public      ┃",
+			"// ┃  License, v. 2.0. If a copy of the MPL was not distributed with this      ┃",
+			"// ┃  file, You can obtain one at https://mozilla.org/MPL/2.0/.                ┃",
+			"// ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛",
+			"",
+			"$1"
+		],
+		"description": "License MPL2"
+	},
+	"Public License MPL2": {
+		"prefix": "lic_pub",
+		"body": [
+			"/*",
+			" * Any copyright is dedicated to the Public Domain.",
+			" * https://creativecommons.org/publicdomain/zero/1.0/",
+			" */",
+			"",
+			"$1"
+		],
+		"description": "Public License MPL2"
+	},
+}

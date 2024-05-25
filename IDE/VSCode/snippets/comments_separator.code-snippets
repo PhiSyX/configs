@@ -1,0 +1,182 @@
+{
+  "Commentaire Export": {
+    "prefix": "comment_export",
+    "body": [
+      "// ------ //",
+      "// Export //",
+      "// ------ //",
+      "",
+      "export ${1:default }$2;"
+    ]
+  },
+  "Commentaire Structure": {
+    "prefix": "comment_struct",
+    "body": [
+      "// --------- //",
+      "// Structure //",
+      "// --------- //",
+      "",
+      "${2:pub} struct $1 { $3 }"
+    ]
+  },
+  "Commentaire impl": {
+    "prefix": "comment_impl",
+    "body": [
+      "// -------------- //",
+      "// Implémentation //",
+      "// -------------- //",
+      "",
+      "impl $1 {",
+      "\t${3:pub}$4 fn $2($6) $5 { $7 }",
+      "}"
+    ]
+  },
+  "Commentaire impl interface": {
+    "prefix": "comment_impl_interface",
+    "body": [
+      "// -------------- //",
+      "// Implémentation // -> Interface",
+      "// -------------- //",
+      "",
+      "impl $1 for $2 { $3 }"
+    ]
+  },
+  "Commentaire fonction": {
+    "prefix": "comment_fn",
+    "body": [
+      "// -------- //",
+      "// Fonction //",
+      "// -------- //",
+      "",
+      "${2:pub}$3 fn $1($5)$4{ $6 }"
+    ]
+  },
+  "Commentaire main": {
+    "prefix": "comment_main",
+    "body": [
+      "// ---- //",
+      "// Main //",
+      "// ---- //",
+      "$1"
+    ]
+  },
+  "Commentaire trait": {
+    "prefix": "comment_trait",
+    "body": [
+      "// --------- //",
+      "// Interface //",
+      "// --------- //",
+      "",
+      "${2:pub} trait $1 $3 { $4 }"
+    ]
+  },
+  "Commentaire type": {
+    "prefix": "comment_type",
+    "body": [
+      "// ---- //",
+      "// Type //",
+      "// ---- //",
+      "",
+      "${2:pub} type $1;"
+    ]
+  },
+  "Commentaire constants": {
+    "prefix": "comment_const",
+    "body": [
+      "// -------- //",
+      "// Constant //",
+      "// -------- //",
+      "",
+      "${4:pub} const $1: $3 = $2;"
+    ]
+  },
+  "Commentaire Énumération": {
+    "prefix": "comment_enum",
+    "body": [
+      "// ----------- //",
+      "// Énumération //",
+      "// ----------- //",
+      "",
+      "${2:pub} enum $1 { $3 }"
+    ]
+  },
+  "Commentaire Composant": {
+    "prefix": "comment_component",
+    "body": [
+      "// --------- //",
+      "// Composant //",
+      "// --------- //",
+      "",
+      "$1"
+    ]
+  },
+  "Commentaire ctor": {
+    "prefix": "comment_ctor",
+    "body": [
+      "// ----------- //",
+      "// Constructor //",
+      "// ----------- //",
+      "$1"
+    ]
+  },
+  "Commentaire getter/setter": {
+    "prefix": "comment_getset",
+    "body": [
+      "// --------------- //",
+      "// Getter | Setter //",
+      "// --------------- //",
+      "$1"
+    ]
+  },
+  "Commentaire public methods": {
+    "prefix": "comment_mpub",
+    "body": [
+      "// ------- //",
+      "// Méthode // -> API Publique",
+      "// ------- //",
+      "$1"
+    ]
+  },
+  "Commentaire private methods": {
+    "prefix": "comment_mpriv",
+    "body": [
+      "// ------- //",
+      "// Méthode // -> Privée",
+      "// ------- //",
+      "$1"
+    ]
+  },
+  "Commentaire composant options": {
+    "prefix": "comments_components_options",
+    "body": [
+      "// ------- //",
+      "// Options //",
+      "// ------- //",
+      "$1"
+    ]
+  },
+  "Commentaire test": {
+    "prefix": "comments_test",
+    "body": [
+      "// ---- //",
+      "// Test //",
+      "// ---- //",
+      "",
+      "#[cfg(test)]",
+      "mod tests {",
+      "\tuse super::*;",
+      "",
+      "\t#[test]",
+      "\tfn $1() {",
+      "\t\t$2",
+      "\t}",
+      "}"
+    ]
+  },
+  "UUID": {
+    "prefix": "uid",
+    "body": [
+      "${UUID}"
+    ]
+  }
+}

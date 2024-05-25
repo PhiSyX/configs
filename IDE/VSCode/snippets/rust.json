@@ -1,0 +1,79 @@
+{
+  "println": {
+    "prefix": "parg",
+    "body": [
+      "« {$1} »$2"
+    ],
+    "description": "Argument for print/ln macro"
+  },
+  "derive": {
+    "prefix": "der",
+    "body": [
+      "#[derive($1)]"
+    ],
+    "description": "Argument derive"
+  },
+  "derive(Debug)": {
+    "prefix": "ddbg",
+    "body": [
+      "#[derive(Debug)]"
+    ],
+    "description": "Argument derive debug"
+  },
+  "derive(Default)": {
+    "prefix": "ddef",
+    "body": [
+      "#[derive(Default)]"
+    ],
+    "description": "Argument derive default"
+  },
+  "derive(Clone)": {
+    "prefix": "dclone",
+    "body": [
+      "#[derive(Clone)]"
+    ],
+    "description": "Argument derive Clone",
+  },
+  "derive(Copy)": {
+    "prefix": "dcopy",
+    "body": [
+      "#[derive(Copy, Clone)]"
+    ],
+    "description": "Argument derive Copy",
+  },
+  "derive(PartialEq, Eq)": {
+    "prefix": "deq",
+    "body": [
+      "#[derive(PartialEq, Eq)]"
+    ],
+    "description": "Argument derive PartialEq, Eq",
+  },
+  "derive(ser)": {
+    "prefix": "dser",
+    "body": [
+      "#[derive(serde::Serialize)]"
+    ],
+    "description": "Argument derive Serialize",
+  },
+  "derive(de)": {
+    "prefix": "dde",
+    "body": [
+      "#[derive(serde::Deserialize)]"
+    ],
+    "description": "Argument derive Deserialize",
+  },
+  "derive(serde)": {
+    "prefix": "dserde",
+    "body": [
+      "#[derive(serde::Deserialize, serde::Serialize)]"
+    ],
+    "description": "Argument derive (De)Serialize",
+  },
+  "derive(thiserror)": {
+    "prefix": "derr",
+    "body": [
+      "#[derive(thiserror::Error)]"
+    ],
+    "description": "Argument derive thiserror::Error",
+  }
+}
