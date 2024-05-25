@@ -1,0 +1,42 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+shift+down",
+    "command": "editor.action.duplicateSelection"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "editor.action.removeDuplicateLines"
+  },
+  {
+    "key": "alt+d",
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "-editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-extension.vim_ctrl+p",
+    "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+  },
+  // Désactiver Formatter
+  // {
+  //   "key": "shift+alt+f",
+  //   "command": "-editor.action.formatDocument",
+  //   "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  // },
+  // {
+  //   "key": "shift+alt+f",
+  //   "command": "-editor.action.formatDocument.none",
+  //   "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+  // },
+  // {
+  //   "key": "shift+alt+f",
+  //   "command": "noop",
+  //   "when": ""
+  // }
+]
