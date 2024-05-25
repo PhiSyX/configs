@@ -1,0 +1,416 @@
+{
+	"breadcrumbs.enabled": false,
+	"clangd.onConfigChanged": "prompt",
+	"cmake.cmakePath": "cmake.exe",
+	"cSpell.language": "fr,en",
+	"dev.containers.executeInWSL": true,
+	"diffEditor.codeLens": true,
+	"diffEditor.hideUnchangedRegions.enabled": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.stickyScroll.enabled": true,
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.acceptSuggestionOnEnter": "smart",
+	"editor.accessibilitySupport": "on",
+	"editor.bracketPairColorization.enabled": false,
+	"editor.cursorBlinking": "solid",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorStyle": "line",
+	"editor.fontFamily": "Hack NF",
+	"editor.fontSize": 14,
+	"editor.minimap.renderCharacters": false,
+	"editor.quickSuggestionsDelay": 1,
+	// "editor.fontFamily": "JetBrains Mono Light",
+	// "editor.fontFamily": "Operator Mono SSm Lig Light",
+	// "editor.fontFamily": "Monaspace Neon ExtraLight",
+	// "editor.fontFamily": "Monaspace Argon ExtraLight",
+	// "editor.fontFamily": "Monaspace Radon ExtraLight",
+	// "editor.fontFamily": "Cascadia Mono Light",
+	// "editor.fontFamily": "Zed Mono",
+	"editor.fontLigatures": true,
+	// "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+	"editor.fontVariations": true,
+	"editor.fontWeight": "normal",
+	"editor.formatOnSave": false,
+	"editor.guides.bracketPairs": true,
+	"editor.guides.highlightActiveBracketPair": true,
+	"editor.guides.highlightActiveIndentation": true,
+	"editor.guides.indentation": false,
+	"editor.indentSize": "tabSize",
+	"editor.inlayHints.enabled": "offUnlessPressed",
+	"editor.lineHeight": 20,
+	"editor.lineNumbers": "relative",
+	"editor.minimap.autohide": true,
+	"editor.rename.enablePreview": true,
+	"editor.rulers": [
+		80,
+		120
+	],
+	"editor.parameterHints.enabled": false,
+	"editor.suggest.insertMode": "insert",
+	"editor.suggest.showWords": false,
+	"editor.tabSize": 4,
+	"editor.unicodeHighlight.nonBasicASCII": false,
+	"editor.quickSuggestions": {
+		"other": "off",
+		"comments": "off",
+		"strings": "off"
+	},
+	"editor.wordBasedSuggestions": "off",
+	"emmet.excludeLanguages": [
+		"markdown",
+		"rust"
+	],
+	"errorLens.editorHoverEnabled": false,
+	"errorLens.fontFamily": "Courier New",
+	"errorLens.fontSize": "15px",
+	"errorLens.fontWeight": "500",
+	"errorLens.messageTemplate": "$severity($source): $message",
+	"errorLens.replaceLinebreaksSymbol": "⏎",
+	"errorLens.statusBarColorsEnabled": true,
+	"errorLens.statusBarIconsAtZero": "hide",
+	"errorLens.statusBarMessageEnabled": true,
+	"errorLens.statusBarMessageTemplate": "$severity($source): $code",
+	"evenBetterToml.formatter.crlf": false,
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.expand": false,
+	"explorer.fileNesting.patterns": {
+		".env": ".env*",
+		".eslintrc*": ".eslint*",
+		".gitignore": ".git*",
+		".npmrc": ".nvmrc",
+		".prettierrc*": ".prettier*",
+		".yarnrc.yml": "yarn.lock",
+		"*.c": "${capture}.h",
+		"*.cc": "${capture}.hpp,${capture}.hh,${capture}.h",
+		"*.cpp": "${capture}.hpp,${capture}.hh,${capture}.h",
+		"*.ts": "${capture}.spec.ts,${capture}.test.ts,${capture}.unit.ts",
+		"*.tsx": "${capture}.stories.tsx,${capture}.style.scss",
+		"*.woff": "${capture}.woff2",
+		"Cargo.toml": "Cargo.lock,*clippy.toml,*rustfmt.toml,rust-toolchain*",
+		"composer.json": "composer.lock",
+		"Dockerfile": ".dockerignore,docker-compose.yml,docker-compose.yaml",
+		"go.mod": "go.sum",
+		"package.json": "package-lock.json,.npm-upgrade.json,.npmrc,pnpm-*.yaml,yarn.lock",
+		"pnpm-workspace.yaml": "pnpm-*.yaml",
+		"README.md": "README,COPYING,*.md",
+		"vercel.json": ".vercelignore",
+		"webpack.config.js": "webpack.*.js",
+		".rustfmt.toml": ".*.toml"
+	},
+	"git.confirmSync": false,
+	"files.eol": "/n",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"javascript.inlayHints.enumMemberValues.enabled": true,
+	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+	"javascript.inlayHints.parameterNames.enabled": "literals",
+	"javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+	"javascript.inlayHints.parameterTypes.enabled": true,
+	"javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+	"javascript.inlayHints.variableTypes.enabled": true,
+	"javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+	"prettier.endOfLine": "auto",
+	"remote.autoForwardPortsSource": "hybrid",
+	"rust-analyzer.assist.emitMustUse": true,
+	"rust-analyzer.assist.expressionFillDefault": "default",
+	"rust-analyzer.diagnostics.enable": false,
+	"rust-analyzer.inlayHints.bindingModeHints.enable": true,
+	"rust-analyzer.inlayHints.closureReturnTypeHints.enable": "with_block",
+	"rust-analyzer.inlayHints.discriminantHints.enable": "fieldless",
+	"rust-analyzer.inlayHints.parameterHints.enable": false,
+	"rust-analyzer.check.command": "clippy",
+	"rust-analyzer.lens.references.trait.enable": true,
+	"rust-analyzer.lens.references.method.enable": true,
+	"rust-analyzer.lens.references.enumVariant.enable": true,
+	"rust-analyzer.lens.references.adt.enable": true,
+	"rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always",
+	"rust-analyzer.hover.actions.references.enable": true,
+	"rust-analyzer.completion.snippets.custom": {
+		"Arc::new": {
+			"postfix": "arc",
+			"body": "Arc::new(${receiver})",
+			"requires": "std::sync::Arc",
+			"description": "Put the expression into an `Arc`",
+			"scope": "expr"
+		},
+		"Rc::new": {
+			"postfix": "rc",
+			"body": "Rc::new(${receiver})",
+			"requires": "std::rc::Rc",
+			"description": "Put the expression into an `Rc`",
+			"scope": "expr"
+		},
+		"Box::pin": {
+			"postfix": "pinbox",
+			"body": "Box::pin(${receiver})",
+			"requires": "std::boxed::Box",
+			"description": "Put the expression into a pinned `Box`",
+			"scope": "expr"
+		},
+		"Ok": {
+			"postfix": "ok",
+			"body": "Ok(${receiver})",
+			"description": "Wrap the expression in a `Result::Ok`",
+			"scope": "expr"
+		},
+		"Err": {
+			"postfix": "err",
+			"body": "Err(${receiver})",
+			"description": "Wrap the expression in a `Result::Err`",
+			"scope": "expr"
+		},
+		"Some": {
+			"postfix": "some",
+			"body": "Some(${receiver})",
+			"description": "Wrap the expression in an `Option::Some`",
+			"scope": "expr"
+		},
+		"Vec::new": {
+			"postfix": "vec",
+			"body": "vec![${receiver}]",
+			"description": "Wrap the expression in a tuple `vec![]`",
+			"scope": "expr"
+		},
+		"Arrays": {
+			"postfix": "arr",
+			"body": "[${receiver}]",
+			"description": "Wrap the expression in a tuple `[]`",
+			"scope": "expr"
+		},
+		"Parenthesis": {
+			"postfix": "paren",
+			"body": "(${receiver})",
+			"description": "Wrap the expression in a tuple `()`",
+			"scope": "expr"
+		}
+	},
+	// "rust-analyzer.check.overrideCommand": [
+	//   "cargo",
+	//   "+nightly",
+	//   "clippy",
+	//   "--workspace",
+	//   "--all-targets",
+	//   "--all-features",
+	//   "--message-format=json"
+	// ],
+	"security.workspace.trust.banner": "untilDismissed",
+	"telemetry.telemetryLevel": "off",
+	"todo-tree.highlights.defaultHighlight": {
+		"background": "#da4141",
+		"foreground": "#f7f7f7",
+		"rulerColour": "#ffffff",
+		"gutterIcon": true
+	},
+	"todo-tree.general.tags": [
+		"[ ]",
+		"[x]",
+		"BUG",
+		"EXAMPLE",
+		"FIXME",
+		"HACK",
+		"ISSUE",
+		"NOTE",
+		"SAFETY",
+		"TODO",
+		"XXX",
+		"SECURITY",
+		"BUG(phisyx)",
+		"FIXME(phisyx)",
+		"HACK(phisyx)",
+		"ISSUE(phisyx)",
+		"NOTE(phisyx)",
+		"TODO(phisyx)",
+		"biome-ignore",
+		"@ts-check",
+		"@ts-ignore",
+		"@ts-expect-error"
+	],
+	"typescript.updateImportsOnFileMove.enabled": "never",
+	"typescript.inlayHints.enumMemberValues.enabled": true,
+	"typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+	"typescript.inlayHints.parameterNames.enabled": "literals",
+	"typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+	"typescript.inlayHints.parameterTypes.enabled": true,
+	"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+	"typescript.inlayHints.variableTypes.enabled": true,
+	"typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+	"vim.enableNeovim": false,
+	"vim.easymotion": true,
+	"vim.handleKeys": {
+		"<C-a>": false,
+		"<C-c>": false,
+		"<C-d>": false,
+		"<C-f>": false,
+		"<C-s>": false,
+		"<C-v>": false,
+		"<C-x>": false,
+		"<C-y>": false,
+		"<C-z>": false
+	},
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"<C-k>"
+			],
+			"after": [
+				"{"
+			]
+		},
+		{
+			"before": [
+				"<C-Up>"
+			],
+			"after": [
+				"{"
+			]
+		},
+		{
+			"before": [
+				"<C-j>"
+			],
+			"after": [
+				"}"
+			]
+		},
+		{
+			"before": [
+				"<C-Down>"
+			],
+			"after": [
+				"}"
+			]
+		}
+	],
+	"vim.visualModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"<C-Up>"
+			],
+			"after": [
+				"{"
+			]
+		},
+		{
+			"before": [
+				"<C-Down>"
+			],
+			"after": [
+				"}"
+			]
+		}
+	],
+	"vue.inlayHints.inlineHandlerLeading": true,
+	"vue.inlayHints.missingProps": true,
+	"vue.features.inlayHints.inlineHandlerLeading": true,
+	"vue.features.inlayHints.missingProps": true,
+	"window.autoDetectColorScheme": true,
+	"window.title": "PhiSyX",
+	"window.titleSeparator": " - ",
+	"window.commandCenter": false,
+	"window.menuBarVisibility": "toggle",
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.preferredDarkColorTheme": "PhiSyX Theme (Ultra black)",
+	"workbench.sideBar.location": "right",
+	"workbench.colorTheme": "PhiSyX Theme (Ultra black)",
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.preferredHighContrastColorTheme": "PhiSyX Theme (Ultra black)",
+	"workbench.preferredHighContrastLightColorTheme": "PhiSyX Theme (Black light)",
+	"workbench.preferredLightColorTheme": "PhiSyX Theme (Black light)",
+	"workbench.startupEditor": "none",
+	"workbench.tree.indent": 18,
+	"[yaml]": {
+		"editor.tabSize": 2,
+		"editor.autoIndent": "advanced",
+		"diffEditor.ignoreTrimWhitespace": false,
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.stickyScroll.enabled": false,
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"better-comments.tags": [
+		{
+			"tag": "!",
+			"color": "#FF2D00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "?",
+			"color": "#3498DB",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "//",
+			"color": "#474747",
+			"strikethrough": true,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "todo",
+			"color": "#FF8C00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "*",
+			"color": "#8be04e",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"cmake.configureOnOpen": true,
+	"C_Cpp.vcFormat.indent.accessSpecifiers": true,
+	"[edge]": {
+		// "editor.defaultFormatter": "jripouteau.adonis-vscode-extension"
+	},
+	"editor.renderWhitespace": "none",
+	"workbench.layoutControl.enabled": false,
+	"terminal.integrated.fontFamily": "Hack NFM",
+	"yaml.schemas": {
+		"https://taskfile.dev/schema.json": [
+			"**/taskfile.yml"
+		]
+	},
+	"files.associations": {
+		"*.svg": "html"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[typescript]": {
+		// "editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		// "editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	}
+}
