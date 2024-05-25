@@ -14,6 +14,10 @@
 	aliases = config --get-regexp alias
 [am]
 	threeWay = true
+[apply]
+	whitespace = fix
+[branch]
+	sort = -committerdate
 [color "status"]
 	unmerged = magenta italic
 	untracked = black yellow
@@ -24,7 +28,11 @@
 	autocrlf = false
 	editor = code --wait
 	longpaths = true
+	# <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
 	sshCommand = ssh
+	trustctime = false
+	untrackedCache = true
+	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
 [credential "https://github.com"]
 	helper = 
 	helper = !gh auth git-credential
@@ -56,6 +64,8 @@
 	extendedRegexp = true
 [help]
 	autocorrect = prompt
+[init]
+	defaultBranch = main
 [log]
 	abbrevCommit = true
 	follow = true
