@@ -1,0 +1,78 @@
+[alias]
+	autofixup = !git commit --fixup $1 && git rebase -r -i --autosquash $1~1 && echo "autofixup finished"
+	autoreword = !git commit --fixup reword:$1 && git rebase -r -i --autosquash $1~1 && echo "autoreword finished"
+	branch-delete = !git push origin --delete $1 && git branch -D $1
+	gl = !git log --graph --pretty=format:'[%C(brightblack)%ad%Creset] <%C(bold blue)%an%Creset ~ %C(bold green)%h%Creset> : %s %C(white magenta bold)%d%Creset' --abbrev-commit --date=short
+	glr = !git log --reverse --pretty=format:'[%C(brightblack)%ad%Creset] <%C(bold blue)%an%Creset ~ %C(bold green)%h%Creset> : %s %C(white magenta bold)%d%Creset' --abbrev-commit --date=short
+	oops = commit --amend --no-edit
+	reword = commit --amend
+	pushif = push --force-with-lease --force-if-includes
+	uncommit = reset --soft HEAD~1
+[am]
+	threeWay = true
+[color "status"]
+	unmerged = magenta italic
+	untracked = black yellow
+	ui = auto
+[commit]
+	gpgsign = true
+[core]
+	autocrlf = false
+	editor = code --wait
+	longpaths = true
+	sshCommand = ssh
+[credential "https://github.com"]
+	helper = 
+	helper = !gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !gh auth git-credential
+[diff]
+	mnemonicPrefix = true
+	renames = true
+	wordRegex = .
+	submodule = log
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[fetch]
+	recurseSubmodules = on-demand
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	process = git-lfs filter-process
+	required = true
+	smudge = git-lfs smudge -- %f
+[gpg]
+	program = gpg
+	format = ssh
+[grep]
+	break = true
+	heading = true
+	lineNumber = true
+	extendedRegexp = true
+[help]
+	autocorrect = prompt
+[log]
+	abbrevCommit = true
+	follow = true
+	decorate = false
+[merge]
+	ff = false
+[mergetool]
+	keepBackup = false
+	keepTemporaries = false
+	writeToTemp = true
+	prompt = false
+[pull]
+	rebase = merges
+[tag]
+	gpgsign = true
+[push]
+	autoSetupRemote = true
+	default = upstream
+	followTags = true
+[user]
+	email = ;-)
+	name = ;-)
+	signingkey = ;-)
+[safe]
