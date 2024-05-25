@@ -11,3 +11,15 @@ You can author your README using Visual Studio Code.  Here are some useful edito
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
+## Ultra Black
+
+![Ultra Black](./screenshots/ultra-black.png)
+
+## Light Black
+
+![Light Black](./screenshots/light-black.png)
+
+## Light Saumon
+
+![Light Saumon](./screenshots/light-saumon.png)

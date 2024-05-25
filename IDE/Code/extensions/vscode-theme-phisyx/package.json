@@ -12,19 +12,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "PhiSyX Theme (Black light)",
+        "label": "PhiSyX Theme (Light black)",
         "uiTheme": "vs",
-        "path": "./themes/black-light-theme.json"
+        "path": "./themes/light-black-theme.json"
       },
       {
-        "label": "PhiSyX Theme (Red light)",
+        "label": "PhiSyX Theme (Light red)",
         "uiTheme": "vs",
-        "path": "./themes/red-light-theme.json"
+        "path": "./themes/light-red-theme.json"
       },
       {
-        "label": "PhiSyX Theme (Ultra light)",
+        "label": "PhiSyX Theme (Light Saumon)",
         "uiTheme": "vs",
-        "path": "./themes/ultra-light-theme.json"
+        "path": "./themes/light-saumon-theme.json"
       },
       {
         "label": "PhiSyX Theme (Ultra black)",
