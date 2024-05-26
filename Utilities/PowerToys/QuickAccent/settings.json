@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "activation_key": 2,
+    "toolbar_position": { "value": "Center" },
+    "input_time_ms": { "value": 200 },
+    "selected_lang": { "value": "ALL" }
+  },
+  "name": "QuickAccent",
+  "version": "1.0"
+}
