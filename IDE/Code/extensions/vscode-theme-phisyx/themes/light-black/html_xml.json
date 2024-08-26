@@ -1,0 +1,112 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"tokenColors": [
+		{
+			"scope": [
+				"text.html punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#212121",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"text.html punctuation"
+			],
+			"settings": {
+				"foreground": "#21212159"
+			}
+		},
+		{
+			"scope": [
+				"text.html meta.attribute entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#212121",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": [
+				"text.html entity.name.tag",
+				"text.xml entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#949494"
+			}
+		},
+		{
+			"scope": [
+				"text.xml meta.tag.preprocessor punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#EF4836"
+			}
+		},
+		{
+			"scope": [
+				"text.html meta.tag.metadata.script entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#EF4836",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": [
+				"text.html meta.attribute.unrecognized entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#ca2b1a",
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"scope": [
+				"text.html string.quoted",
+				"text.html meta.tag.metadata.script string.quoted",
+				"text.xml string.unquoted.cdata"
+			],
+			"settings": {
+				"foreground": "#D4803B"
+			}
+		},
+		{
+			"scope": [
+				"text.html meta.tag.metadata.style string.quoted",
+				"text.html meta.tag.metadata.title string.quoted"
+			],
+			"settings": {
+				"foreground": "#98C379"
+			}
+		},
+		{
+			"scope": [
+				"text.html meta.tag.metadata.style entity.name.tag",
+				"text.html meta.tag.metadata.title entity.name.tag",
+				"text.html meta.tag.custom entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#62A51F"
+			}
+		},
+		{
+			"scope": [
+				"text.html meta.tag.metadata string.quoted"
+			],
+			"settings": {
+				"foreground": "#b252df"
+			}
+		},
+		{
+			"scope": [
+				"text.html meta.tag.metadata entity.name.tag",
+				"text.xml entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#d1b1e0"
+			}
+		}
+	]
+}

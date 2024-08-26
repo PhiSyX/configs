@@ -1,0 +1,49 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "tokenColors": [
+        {
+            "scope": [
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "source.shell constant.other.option"
+            ],
+            "settings": {
+                "foreground": "#d4803b"
+            }
+        },
+        {
+            "scope": [
+                "source.shell storage.type.alias",
+                "source.shell keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#ef4836"
+            }
+        },
+        {
+            "scope": [
+                "source.shell constant.other.option.dash",
+                "source.shell punctuation.definition.variable"
+            ],
+            "settings": {
+                "foreground": "#ef4836",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.shell variable.parameter",
+                "source.shell variable.other"
+            ],
+            "settings": {
+                "foreground": "#ef4836",
+                "fontStyle": "italic"
+            }
+        }
+    ]
+}

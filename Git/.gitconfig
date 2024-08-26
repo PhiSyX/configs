@@ -28,8 +28,8 @@
 	autocrlf = false
 	editor = code --wait
 	longpaths = true
-	# <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
 	sshCommand = ssh
+	# <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
 	trustctime = false
 	untrackedCache = true
 	whitespace = space-before-tab,-indent-with-non-tab,trailing-space

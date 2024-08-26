@@ -17,7 +17,7 @@
  * @return returns desc
  */
 
-+ - / * | & "" '' ^ !  - % : () {} [] ;
+<< >> < > + - / * | & "str" 'c' ^ !  - % : () {} [] ;
 
 class X {};
 enum class X {

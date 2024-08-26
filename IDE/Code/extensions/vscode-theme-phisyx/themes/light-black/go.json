@@ -1,0 +1,147 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "tokenColors": [
+        {
+            "scope": [
+                "source.go entity.name.type.package"
+            ],
+            "settings": {
+                "foreground": "#212121",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "source.go string.quoted.double constant.other.placeholder"
+            ],
+            "settings": {
+                "foreground": "#212121",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "source.go constant.language.null"
+            ],
+            "settings": {
+                "foreground": "#212121",
+                "fontStyle": "bold underline"
+            }
+        },
+        {
+            "scope": [
+                "source.go string.quoted.raw"
+            ],
+            "settings": {
+                "foreground": "#f98b8b"
+            }
+        },
+        {
+            "scope": [
+                "source.go keyword.package",
+                "source.go keyword.var",
+                "source.go keyword.const",
+                "source.go keyword.type"
+            ],
+            "settings": {
+                "foreground": "#ef4836"
+            }
+        },
+        {
+            "scope": [
+                "source.go keyword.interface",
+                "source.go keyword.struct",
+                "source.go storage.type.string"
+            ],
+            "settings": {
+                "foreground": "#ef4836",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": [
+                "source.go keyword.operator.increment"
+            ],
+            "settings": {
+                "foreground": "#ca2b1a"
+            }
+        },
+        {
+            "scope": [
+                "source.go storage.type.error"
+            ],
+            "settings": {
+                "foreground": "#ca2b1a",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.go keyword.operator.address"
+            ],
+            "settings": {
+                "foreground": "#ca2b1a",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "source.go keyword.channel",
+                "source.go keyword.map"
+            ],
+            "settings": {
+                "foreground": "#d4803b"
+            }
+        },
+        {
+            "scope": [
+                "source.go storage.type.boolean"
+            ],
+            "settings": {
+                "foreground": "#46a0b0"
+            }
+        },
+        {
+            "scope": [
+                "source.go keyword.function",
+                "source.go keyword.control"
+            ],
+            "settings": {
+                "foreground": "#1f8aa5"
+            }
+        },
+        {
+            "scope": [
+                "source.go variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#75c1ea"
+            }
+        },
+        {
+            "scope": [
+                "source.go punctuation.other.comma"
+            ],
+            "settings": {
+                "foreground": "#2993eb"
+            }
+        },
+        {
+            "scope": [
+                "source.go storage.type.numeric"
+            ],
+            "settings": {
+                "foreground": "#2993eb",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": [
+                "source.go entity.name.function"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        }
+    ]
+}

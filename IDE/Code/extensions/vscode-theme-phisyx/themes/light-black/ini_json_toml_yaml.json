@@ -1,0 +1,82 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "tokenColors": [
+        {
+            "scope": [
+                "source.ini entity.name.section.group-title",
+                "source.json string support.type.property-name",
+                "source.toml meta.table support.type.property-name.table",
+                "source.yaml entity.name.tag"
+            ],
+            "settings": {
+                "foreground": "#f98b8b"
+            }
+        },
+        {
+            "scope": [
+                "source.ini entity.name.section.group-title punctuation.definition",
+                "source.toml meta.table punctuation.definition.table"
+
+            ],
+            "settings": {
+                "foreground": "#f78978",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.ini punctuation.separator.key-value",
+                "source.toml punctuation.eq",
+                "source.toml punctuation.separator",
+                "source.yaml keyword.control"
+            ],
+            "settings": {
+                "foreground": "#ef4836"
+            }
+        },
+        {
+            "scope": [
+                "source.json meta.structure.dictionary.value string"
+            ],
+            "settings": {
+                "foreground": "#212121",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "source.json constant.language",
+                "source.toml constant.language.boolean"
+            ],
+            "settings": {
+                "foreground": "#46a0b0"
+            }
+        },
+        {
+            "scope": [
+                "source.toml string.quoted.single.basic.line"
+            ],
+            "settings": {
+                "foreground": "#d4803b"
+            }
+        },
+        {
+            "scope": [
+                "source.ini keyword.other.definition",
+                "source.toml meta.entry support.type.property-name"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.toml meta.table.inline meta.entry support.type.property-name"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        }
+ 
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "tokenColors": [
+        {
+            "scope": [
+                "text.html.markdown heading",
+                "text.html.markdown markup.bold"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown markup.italic"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown markup.underline"
+            ],
+            "settings": {
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown markup.inline.raw.string"
+            ],
+            "settings": {
+                "foreground": "#f98b8b"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown markup.underline.link"
+            ],
+            "settings": {
+                "foreground": "#d4803b"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown string.other.link.title"
+            ],
+            "settings": {
+                "foreground": "#d4803b",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown constant.numeric.math"
+            ],
+            "settings": {
+
+                "foreground": "#2993eb"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown fenced_code.block.language"
+            ],
+            "settings": {
+                "foreground": "#1f8aa5",
+                "fontStyle": "underline"
+            }
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"tokenColors": [
+		{
+			"scope": [
+				"source.c constant.other.placeholder",
+				"source.cpp constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#212121",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.definition"
+			],
+			"settings": {
+				"foreground": "#212121",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"source.c keyword.other",
+				"source.cpp keyword.other",
+				"source.c keyword.control",
+				"source.cpp keyword.control",
+				"source.c keyword.operator.bitwise",
+				"source.cpp keyword.operator.bitwise",
+				"source.c storage.modifier.specifier.const",
+				"source.cpp storage.modifier.specifier.const",
+				"source.cpp storage.modifier.specifier.functional.post-parameters"
+			],
+			"settings": {
+				"foreground": "#ef4836"
+			}
+		},
+		{
+			"scope": [
+				"source.cpp meta.function.definition storage.modifier"
+			],
+			"settings": {
+				"foreground": "#ef4836",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"source.c storage.type.struct",
+				"source.cpp storage.type.struct",
+				"source.c storage.type.built-in",
+				"source.cpp storage.type.built-in",
+				"source.cpp storage.type.class"
+			],
+			"settings": {
+				"foreground": "#ef4836",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": [
+				"source.cpp storage.modifier.reference",
+				"source.c meta.function meta.function.definition.parameters keyword.operator"
+			],
+			"settings": {
+				"foreground": "#ca2b1a",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"source.cpp storage.modifier.reference"
+			],
+			"settings": {
+				"foreground": "#ca2b1a",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"source.c keyword.other.unit",
+				"source.cpp keyword.other.unit"
+			],
+			"settings": {
+				"foreground": "#286491"
+			}
+		},
+		{
+			"scope": [
+				"source.cpp storage.type.modifier.access",
+				"source.cpp punctuation.separator.namespace.access punctuation.separator.scope-resolution"
+			],
+			"settings": {
+				"foreground": "#1f8aa5"
+			}
+		},
+		{
+			"scope": [
+				"source.cpp storage.modifier.specifier.functional.pre-parameters"
+			],
+			"settings": {
+				"foreground": "#1f8aa5",
+				"fontStyle": "underline"
+			}
+		},
+		{
+            "scope": [
+                "source.c keyword.control.directive",
+                "source.cpp keyword.control.directive",
+				"source.cpp entity.other.attribute",
+				"source.cpp punctuation.definition.function.return-type"
+            ],
+            "settings": {
+                "foreground": "#2993eb"
+            }
+        },
+		{
+            "scope": [
+                "source.c punctuation.definition.directive",
+                "source.cpp punctuation.definition.directive",
+                "source.c meta.preprocessor punctuation.definition",
+                "source.cpp meta.preprocessor punctuation.definition",
+				"source.cpp storage.type.template",
+				"source.c punctuation.separator.pointer-access"
+            ],
+            "settings": {
+                "foreground": "#89ade6"
+            }
+        },
+		{
+			"scope": [
+				"source.cpp punctuation.section.attribute"
+			],
+			"settings": {
+                "foreground": "#89ade6",
+				"fontStyle": "bold"
+			}
+		},
+		{
+            "scope": [
+                "source.c meta.preprocessor string.quoted.double punctuation.definition",
+                "source.cpp meta.preprocessor string.quoted.double punctuation.definition",
+                "source.c meta.preprocessor string.quoted.single punctuation.definition",
+                "source.cpp meta.preprocessor string.quoted.single punctuation.definition"
+            ],
+            "settings": {
+                "foreground": "#92c0bd",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.c meta.preprocessor string.quoted.double",
+                "source.cpp meta.preprocessor string.quoted.double",
+                "source.c meta.preprocessor string.quoted.single",
+                "source.cpp meta.preprocessor string.quoted.single"
+            ],
+            "settings": {
+                "foreground": "#91cfcb",
+                "fontStyle": "underline"
+            }
+        }
+	]
+}

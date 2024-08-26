@@ -1,0 +1,124 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"tokenColors": [
+		{
+			"scope": [
+				"source.elixir keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#949494"
+			}
+		},
+		{
+			"scope": [
+				"source.elixir keyword.operator.other",
+				"source.elixir variable.other.anonymous"
+			],
+			"settings": {
+				"foreground": "#ca2b1a"
+			}
+		},
+        {
+            "scope": [
+                "source.elixir keyword.control"
+            ],
+            "settings": {
+                "foreground": "#ef4836"
+            }
+        },
+		{
+			"scope": [
+				"source.elixir meta.function.definition punctuation.definition.map"
+			],
+			"settings": {
+				"foreground": "#ef4836",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": [
+				"source.elixir string.quoted.double punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#f06f06"
+			}
+		},
+		{
+			"scope": [
+				"source.elixir string.quoted.double variable"
+			],
+			"settings": {
+				"foreground": "#f06f06",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"source.elixir meta.function.definition variable.other.readwrite"
+			],
+			"settings": {
+				"foreground": "#74b4b8"
+			}
+		},
+		{
+			"scope": [
+				"source.elixir constant.language"
+			],
+			"settings": {
+				"foreground": "#46A0B0"
+			}
+		},
+		{
+			"scope": [
+				"source.elixir meta.function.definition keyword.control"
+			],
+			"settings": {
+				"foreground": "#1f8aa5",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"source.elixir variable.other.readwrite"
+			],
+			"settings": {
+				"foreground": "#75c1ea"
+			}
+		},
+		{
+			"scope": [
+				"source.elixir punctuation.definition.map"
+			],
+			"settings": {
+				"foreground": "#2993EB"
+			}
+		},
+		{
+			"scope": [
+				"source.elixir variable.other.constant punctuation.definition.variable"
+			],
+			"settings": {
+				"foreground": "#b252df"
+			}
+		},
+		{
+			"scope": [
+				"source.elixir variable.other.constant",
+				"source.elixir meta.function.definition string.quoted"
+			],
+			"settings": {
+				"foreground": "#d49bee"
+			}
+		},
+		{
+			"scope": [
+				"source.elixir constant.language.symbol",
+				"source.elixir constant.language.symbol punctuation.definition.constant"
+			],
+			"settings": {
+				"foreground": "#ae99d2",
+				"fontStyle": "italic"
+			}
+		}
+	]
+}

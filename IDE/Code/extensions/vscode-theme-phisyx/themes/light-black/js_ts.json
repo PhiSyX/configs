@@ -1,0 +1,354 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "tokenColors": [
+        {
+            "scope": [
+                "source.js entity.name.function",
+                "source.ts entity.name.function",
+                "source.tsx entity.name.function"
+            ],
+            "settings": {
+                "foreground": "#212121",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "source.js storage.type.class.jsdoc",
+                "source.ts storage.type.class.jsdoc",
+                "source.tsx storage.type.class.jsdoc",
+				"source.js.jsx meta.tag.attributes entity.other.attribute-name",
+				"source.tsx meta.tag.attributes entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#212121",
+                "fontStyle": "underline"
+            }
+        },
+
+        {
+            "scope": [
+                "source.js string.template meta.template.expression support.type.primitive",
+                "source.ts string.template meta.template.expression support.type.primitive",
+                "source.tsx string.template meta.template.expression support.type.primitive",
+                "source.js string.template meta.template.expression variable.other",
+                "source.ts string.template meta.template.expression variable.other",
+                "source.tsx string.template meta.template.expression variable.other",
+                "source.js comment.block entity.name.type",
+                "source.ts comment.block entity.name.type",
+                "source.tsx comment.block entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#212121",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "source.js entity.name.function",
+                "source.ts entity.name.function",
+                "source.tsx entity.name.function",
+                "source.js comment.block entity.name.type punctuation.definition.bracket",
+                "source.ts comment.block entity.name.type punctuation.definition.bracket",
+                "source.tsx comment.block entity.name.type punctuation.definition.bracket"
+            ],
+            "settings": {
+                "foreground": "#212121",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+				"source.js.jsx entity.name.tag",
+                "source.tsx entity.name.tag"
+            ],
+            "settings": {
+                "foreground": "#949494"
+            }
+        },
+        {
+            "scope": [
+                "source.js meta.class storage.type",
+                "source.ts meta.class storage.type",
+                "source.tsx meta.class storage.type",
+                "source.js meta.var storage.type",
+                "source.ts meta.var storage.type",
+                "source.tsx meta.var storage.type",
+                "source.js meta.class storage.modifier",
+                "source.ts meta.class storage.modifier",
+                "source.tsx meta.class storage.modifier",
+                "source.js keyword.operator.new",
+                "source.ts keyword.operator.new",
+                "source.tsx keyword.operator.new",
+                "source.ts keyword.operator.type",
+                "source.tsx keyword.operator.type",
+                "source.js keyword.control.conditional",
+                "source.ts keyword.control.conditional",
+                "source.tsx keyword.control.conditional",
+                "source.js string.template meta.template punctuation.definition.template-expression",
+                "source.ts string.template meta.template punctuation.definition.template-expression",
+                "source.tsx string.template meta.template punctuation.definition.template-expression",
+                "source.ts storage.type.namespace",
+                "source.tsx storage.type.namespace"
+            ],
+            "settings": {
+                "foreground": "#ef4836"
+            }
+        },
+        {
+            "scope": [
+                "source.js keyword.operator.spread",
+                "source.ts keyword.operator.spread",
+                "source.tsx keyword.operator.spread"
+            ],
+            "settings": {
+                "foreground": "#ef4836",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.ts meta.type storage.modifier",
+                "source.tsx meta.type storage.modifier",
+                "source.ts meta.interface storage.modifier",
+                "source.tsx meta.interface storage.modifier",
+                "source.ts meta.interface storage.type",
+                "source.tsx meta.interface storage.type"
+            ],
+            "settings": {
+                "foreground": "#ef4836",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "source.js support.type.primitive",
+                "source.ts support.type.primitive",
+                "source.tsx support.type.primitive",
+                "source.js meta.type storage.type",
+                "source.ts meta.type storage.type",
+                "source.tsx meta.type storage.type",
+                "source.js entity.name.type",
+                "source.ts entity.name.type",
+                "source.tsx entity.name.type",
+                "source.js entity.other.inherited-class",
+                "source.ts entity.other.inherited-class",
+                "source.tsx entity.other.inherited-class"
+            ],
+            "settings": {
+                "foreground": "#ef4836",
+                "fontStyle": "underline"
+            }
+        },
+        
+        {
+            "scope": [
+                "source.js string.template",
+                "source.ts string.template",
+                "source.tsx string.template"
+            ],
+            "settings": {
+                "foreground": "#f98b8b"
+            }
+        },
+        {
+            "scope": [
+                "source.js string.template punctuation.definition",
+                "source.ts string.template punctuation.definition",
+                "source.tsx string.template punctuation.definition"
+            ],
+            "settings": {
+                "foreground": "#f78978",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.js comment.block.documentation meta.example source.embedded",
+                "source.ts comment.block.documentation meta.example source.embedded",
+                "source.tsx comment.block.documentation meta.example source.embedded"
+            ],
+            "settings": {
+                "foreground": "#98C379",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+				"source.js.jsx support.class.component",
+				"source.tsx support.class.component"
+            ],
+            "settings": {
+                "foreground": "#62A51F"
+            }
+        },
+        {
+            "scope": [
+                "source.js variable.language.this",
+                "source.ts variable.language.this",
+                "source.tsx variable.language.this"
+            ],
+            "settings": {
+                "foreground": "#8fc8cd"
+            }
+        },
+        {
+            "scope": [
+                "source.js meta.export string.quoted.double punctuation.definition",
+                "source.ts meta.export string.quoted.double punctuation.definition",
+                "source.tsx meta.export string.quoted.double punctuation.definition",
+                "source.js meta.export string.quoted.single punctuation.definition",
+                "source.ts meta.export string.quoted.single punctuation.definition",
+                "source.tsx meta.export string.quoted.single punctuation.definition",
+                "source.js meta.import string.quoted.double punctuation.definition",
+                "source.ts meta.import string.quoted.double punctuation.definition",
+                "source.tsx meta.import string.quoted.double punctuation.definition",
+                "source.js meta.import string.quoted.single punctuation.definition",
+                "source.ts meta.import string.quoted.single punctuation.definition",
+                "source.tsx meta.import string.quoted.single punctuation.definition"
+            ],
+            "settings": {
+                "foreground": "#92c0bd",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.js meta.export string.quoted.double",
+                "source.ts meta.export string.quoted.double",
+                "source.tsx meta.export string.quoted.double",
+                "source.js meta.export string.quoted.single",
+                "source.ts meta.export string.quoted.single",
+                "source.tsx meta.export string.quoted.single",
+                "source.js meta.import string.quoted.double",
+                "source.ts meta.import string.quoted.double",
+                "source.tsx meta.import string.quoted.double",
+                "source.js meta.import string.quoted.single",
+                "source.ts meta.import string.quoted.single",
+                "source.tsx meta.import string.quoted.single"
+            ],
+            "settings": {
+                "foreground": "#91cfcb",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": [
+                "source.js meta.export constant.language.import-export-all",
+                "source.ts meta.export constant.language.import-export-all",
+                "source.tsx meta.export constant.language.import-export-all",
+                "source.js meta.import constant.language.import-export-all",
+                "source.ts meta.import constant.language.import-export-all",
+                "source.tsx meta.import constant.language.import-export-all"
+            ],
+            "settings": {
+                "foreground": "#10a98b"
+            }
+        },
+        
+        {
+            "scope": [
+                "source.js variable.other.constant",
+                "source.ts variable.other.constant",
+                "source.tsx variable.other.constant"
+            ],
+            "settings": {
+                "foreground": "#46a0b0"
+            }
+        },
+        {
+            "scope": [
+                "source.js storage.type.function",
+                "source.ts storage.type.function",
+                "source.tsx storage.type.function",
+                "source.js meta.parameters punctuation.definition.parameters",
+                "source.ts meta.parameters punctuation.definition.parameters",
+                "source.tsx meta.parameters punctuation.definition.parameters",
+                "source.js keyword.control.flow",
+                "source.ts keyword.control.flow",
+                "source.tsx keyword.control.flow",
+                "source.js keyword.operator.expression",
+                "source.ts keyword.operator.expression",
+                "source.tsx keyword.operator.expression",
+                "source.js keyword.control",
+                "source.ts keyword.control",
+                "source.tsx keyword.control",
+                "source.js storage.modifier.async",
+                "source.ts storage.modifier.async",
+                "source.tsx storage.modifier.async"
+            ],
+            "settings": {
+                "foreground": "#1f8aa5"
+            }
+        },
+        {
+            "scope": [
+                "source.js meta.export keyword.control",
+                "source.ts meta.export keyword.control",
+                "source.tsx meta.export keyword.control",
+                "source.js meta.import keyword.control",
+                "source.ts meta.import keyword.control",
+                "source.tsx meta.import keyword.control",
+                "source.js keyword.control.export",
+                "source.ts keyword.control.export",
+                "source.tsx keyword.control.export",
+                "source.js keyword.operator",
+                "source.ts keyword.operator",
+                "source.tsx keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#2993eb"
+            }
+        },
+        {
+            "scope": [
+                "source.js keyword.operator.optional",
+                "source.ts keyword.operator.optional",
+                "source.tsx keyword.operator.optional",
+                "source.js punctuation.accessor.optional",
+                "source.ts punctuation.accessor.optional",
+                "source.tsx punctuation.accessor.optional"
+            ],
+            "settings": {
+                "foreground": "#2993eb",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.js meta.import punctuation.definition",
+                "source.ts meta.import punctuation.definition",
+                "source.tsx meta.import punctuation.definition",
+                "source.js comment.block variable.other.jsdoc",
+                "source.ts comment.block variable.other.jsdoc",
+                "source.tsx comment.block variable.other.jsdoc"
+            ],
+            "settings": {
+                "foreground": "#89ade6"
+            }
+        },
+        {
+            "scope": [
+                "source.js meta.parameters variable.parameter",
+                "source.ts meta.parameters variable.parameter",
+                "source.tsx meta.parameters variable.parameter",
+                "source.js meta.return.type variable.parameter",
+                "source.ts meta.return.type variable.parameter",
+                "source.tsx meta.return.type variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#75c1ea"
+            }
+        },
+        {
+            "scope": [
+                "source.js comment.block.documentation variable.other.jsdoc punctuation.definition.optional-value",
+                "source.ts comment.block.documentation variable.other.jsdoc punctuation.definition.optional-value",
+                "source.tsx comment.block.documentation variable.other.jsdoc punctuation.definition.optional-value"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        }
+    ]
+}

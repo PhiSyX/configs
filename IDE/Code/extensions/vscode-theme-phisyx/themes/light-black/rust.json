@@ -1,0 +1,272 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "tokenColors": [
+        {
+            "scope": [
+                "source.rust meta.attribute entity.name.type",
+                "source.rust string.quoted.double meta.interpolation"
+            ],
+            "settings": {
+                "foreground": "#212121",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "source.rust entity.name.type.option",
+                "source.rust entity.name.type.result"
+            ],
+            "settings": {
+                "foreground": "#212121",
+                "fontStyle": "bold underline"
+            }
+        },
+        {
+            "scope": [
+                "source.rust keyword.operator.key-value",
+                "source.rust meta.function.definition punctuation.brackets.round",
+                "source.rust punctuation.brackets.square"
+            ],
+            "settings": {
+                "foreground": "#cbc8c8"
+            }
+        },
+        {
+            "scope": [
+                "source.rust keyword.other",
+                "source.rust storage.type",
+                "source.rust storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#ef4836"
+            }
+        },
+        {
+            "scope": [
+                "source.rust entity.name.type.primitive",
+                "source.rust keyword.declaration.enum",
+                "source.rust keyword.declaration.struct",
+                "source.rust keyword.declaration.trait",
+                "source.rust meta.function.definition entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#ef4836",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": [
+                "source.rust punctuation.brackets.angle"
+            ],
+            "settings": {
+                "foreground": "#ca2b1a"
+            }
+        },
+        {
+            "scope": [
+                "source.rust keyword.operator.dereference"
+            ],
+            "settings": {
+                "foreground": "#ca2b1a",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.rust keyword.operator.borrow"
+            ],
+            "settings": {
+                "foreground": "#ca2b1a",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "source.rust punctuation.definition.lifetime",
+                "source.rust entity.name.type.lifetime"
+            ],
+            "settings": {
+                "foreground": "#d4803b"
+            }
+        },
+        {
+            "scope": [
+                "source.rust meta.attribute string.quoted.double punctuation.definition",
+                "source.rust meta.attribute string.quoted.single punctuation.definition"
+            ],
+            "settings": {
+                "foreground": "#92c0bd",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.rust meta.attribute string.quoted.double",
+                "source.rust meta.attribute string.quoted.single"
+            ],
+            "settings": {
+                "foreground": "#91cfcb",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": [
+                "source.rust meta.use entity.name.namespace",
+                "source.rust variable.language.self",
+                "source.rust variable.language.super"
+            ],
+            "settings": {
+                "foreground": "#8fc8cd"
+            }
+        },
+        {
+            "scope": [
+                "source.rust constant.other",
+                "source.rust constant.language.bool"
+            ],
+            "settings": {
+                "foreground": "#46a0b0"
+            }
+        },
+        {
+            "scope": [
+                "source.rust keyword.control",
+                "source.rust keyword.other.crate",
+                "source.rust meta.function.call keyword.operator.logical",
+                "source.rust meta.function.definition keyword.other",
+                "source.rust meta.use punctuation.brackets"
+            ],
+            "settings": {
+                "foreground": "#1f8aa5"
+            }
+        },
+        {
+            "scope": [
+                "source.rust meta.function.definition variable.other"
+            ],
+            "settings": {
+                "foreground": "#75c1ea"
+            }
+        },
+        {
+            "scope": [
+                "source.rust meta.attribute"
+            ],
+            "settings": {
+                "foreground": "#89ade6"
+            }
+        },
+        {
+            "scope": [
+                "source.rust string.quoted.byte",
+                "source.rust string.quoted.single.char"
+            ],
+            "settings": {
+                "foreground": "#2993eb"
+            }
+        },
+        {
+            "scope": [
+                "source.rust keyword.operator.question"
+            ],
+            "settings": {
+                "foreground": "#2993eb",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.rust entity.name.type.numeric"
+            ],
+            "settings": {
+                "foreground": "#2993eb",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": [
+                "source.rust meta.attribute keyword.operator.logical",
+                "source.rust meta.attribute punctuation.brackets"
+            ],
+            "settings": {
+                "foreground": "#3475de"
+            }
+        },
+        {
+            "scope": [
+                "source.rust meta.attribute keyword.operator.assignment.equal",
+                "source.rust meta.use keyword.operator.math",
+                "source.rust meta.use keyword.operator.namespace"
+            ],
+            "settings": {
+                "foreground": "#3475de",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.rust constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#1653b6"
+            }
+        },
+        {
+            "scope": [
+                "source.rust keyword.operator.macro.dollar"
+            ],
+            "settings": {
+                "foreground": "#b252df"
+            }
+        },
+        {
+            "scope": [
+                "source.rust meta.macro entity.name.function.macro.rules"
+            ],
+            "settings": {
+                "foreground": "#a151de"
+            }
+        },
+        {
+            "scope": [
+                "source.rust variable.other.metavariable.name"
+            ],
+            "settings": {
+                "foreground": "#d49bee"
+            }
+        },
+        {
+            "scope": [
+                "source.rust meta.macro entity.name.function.macro"
+            ],
+            "settings": {
+                "foreground": "#d49bee",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": [
+                "source.rust meta.function entity.name.function"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "source.rust entity.name.type.trait"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "source.rust entity.name.type.declaration"
+            ],
+            "settings": {
+                "fontStyle": "italic underline"
+            }
+        }
+    ]
+}

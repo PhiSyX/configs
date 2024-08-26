@@ -1,0 +1,85 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "tokenColors": [
+        {
+			"scope": [
+				"source.css meta.at-rule.import string.quoted.double",
+				"source.css meta.at-rule.import string.quoted.single",
+				"source.css meta.property-list entity.name.tag",
+				"source.css meta.property-list meta.property-name support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#212121",
+				"fontStyle": ""
+			}
+		},
+        {
+            "scope": ["keyword.other.unit"],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+			"scope": [
+				"source.css entity.name.tag",
+				"source.css entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#949494"
+			}
+		},
+        {
+			"scope": [
+				"source.css variable.scss"
+			],
+			"settings": {
+				"foreground": "#ef4836"
+			}
+		},
+        {
+			"scope": [
+				"source.css meta.property-list meta.property-value",
+                "source.css meta.at-rule support.constant"
+			],
+			"settings": {
+				"foreground": "#46A0B0"
+			}
+		},
+        {
+			"scope": [
+				"source.css entity.other.attribute-name.pseudo-class",
+				"source.css entity.other.attribute-name.pseudo-element"
+			],
+			"settings": {
+				"foreground": "#2993EB"
+			}
+		},
+        {
+			"scope": [
+				"source.css meta.at-rule keyword.control",
+				"source.css meta.content keyword.control"
+			],
+			"settings": {
+				"foreground": "#b252df"
+			}
+		},
+        {
+			"scope": [
+				"source.css meta.at-rule keyword.control punctuation.definition",
+				"source.css meta.at-rule support.type.property-name.media"
+			],
+			"settings": {
+				"foreground": "#dfc3ec"
+			}
+		},
+        {
+			"scope": [
+				"source.css support.type.vendored.property-name",
+				"source.css support.constant.vendored.property-value"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		}
+    ]
+}

@@ -1,0 +1,10 @@
+[package]
+name = "generate"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
+globwalk = { version = "0.9.1" }
+serde = { version = "1.0.209", features = ["derive"] }
+serde_json = { version = "1.0.127" }
